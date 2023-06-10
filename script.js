@@ -12,5 +12,5 @@ window.addEventListener("resize", function() {
   var height = window.innerHeight;
 
   // Update the content of the <h1> tag
-  sizeInfo.textContent = "Width: " + width + "px, Height: " + height + "px";
+  sizeInfo.textContent = "Width: " + width + " and Height: " + height + "px";
 });
