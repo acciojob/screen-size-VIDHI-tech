@@ -4,7 +4,7 @@ var initialHeight = window.innerHeight;
 
 // Update the content of the <h1> tag
 var sizeInfo = document.getElementById("sizeInfo");
-sizeInfo.textContent = "Width: " + initialWidth + "px, Height: " + initialHeight + "px";
+sizeInfo.textContent = "Width: " + initialWidth + " and Height: " + initialHeight + "";
 
 window.addEventListener("resize", function() {
   // Get the updated width and height of the window
